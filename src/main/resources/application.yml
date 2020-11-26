@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+    include: hadoop
+#logging:
+#  config: classpath:logback-${spring.profiles}.xml
+
+---
+
+spring:
+  profiles: prd
+
+---
+
+spring:
+  profiles: dev

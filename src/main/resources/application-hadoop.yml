@@ -1,0 +1,15 @@
+hadoop:
+  namenode:
+    ha: false
+    hostname:
+      - dsc01.en-core.com
+    port: 50070
+  kafka:
+    hostname:
+      - dsc01.en-core.com
+      - dsc02.en-core.com
+      - dsc03.en-core.com
+#      - dsc05.en-core.com
+    port: 6667
+#    port: 9092
+    topic: HDFS-Status
